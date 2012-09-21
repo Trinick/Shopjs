@@ -28,7 +28,7 @@ app.configure(function(){
           return stylus(str)
               .set("filename", path)
               .set("warn", true)
-              .set("force", true);
+              .set("force", true)
               .set("compress", true);
       }
   }));
