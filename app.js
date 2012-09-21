@@ -20,7 +20,6 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(require('stylus').middleware(__dirname + '/public'));
   app.use(require('stylus').middleware({
       src: __dirname,
       src: __dirname + "/public",
