@@ -20,16 +20,7 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(require('stylus').middleware({
-    src: __dirname + "/public",
-    compile: function(str, path) {
-      return stylus(str)
-        .set("filename", path)
-        .set("warn", true)
-        .set("force", true)
-        .set("compress", true);
-    }
-  }));
+  app.use(require('stylus').middleware(__dirname + '/public'));
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
