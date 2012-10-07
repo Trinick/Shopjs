@@ -8,7 +8,7 @@ exports.index = function(req, res){
   , url: req.url
   , req: req
   , res: res
-  , footer-text: 'Copyright 2012 Shopjs'
-  , page-content: 'WIP YO'
+  , footertext: 'Copyright 2012 Shopjs'
+  , pagecontent: 'WIP YO'
    });
 };
