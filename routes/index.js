@@ -4,5 +4,11 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Shopjs', url: req.url, req: req, res: res });
+  res.render('index', { title: 'Shopjs'
+  ,url: req.url
+  , req: req
+  , res: res
+  , footer-content: "Copyright 2012 Shopjs"
+  , content: "WIP YO"
+   });
 };
