@@ -9,6 +9,6 @@ exports.index = function(req, res){
   , req: req
   , res: res
   , footertext: 'Copyright 2012 Shopjs'
-  , pagecontent: 'WIP YO'
+  , pagecontent: '<br />WIP YO'
    });
 };
