@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Shopjs'
+  res.render('index', { title: 'Shopjss'
   , url: req.url
   , req: req
   , res: res
