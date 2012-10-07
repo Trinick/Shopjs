@@ -9,7 +9,7 @@ exports.index = function(req, res){
   , url: req.url
   , req: req
   , res: res
-  , content: filters
+  , pagecontent: filters
   , footertext: 'Copyright 2012 Shopjs'
    });
 };
